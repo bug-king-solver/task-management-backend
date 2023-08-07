@@ -1,15 +1,4 @@
 {
-    "headers": [
-      {
-        "source": "/tasks",
-        "headers": [
-          {
-            "key": "Access-Control-Allow-Origin",
-            "value": "http://localhost:8080"
-          }
-        ]
-      }
-    ],
   "functions": {
     "api/server.js": {
       "memory": 1024,
