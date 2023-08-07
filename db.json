@@ -1,9 +1,7 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "tasks": [
+    { "id": 1, "taskDesc": "Do something important", "createdBy": "janny", "assignedTo": "jack", "editing": false },
+    { "id": 2, "taskDesc": "Complete mock API setup", "createdBy": "janny", "assignedTo": "jack", "editing": true },
+    { "id": 3, "taskDesc": "Test the task management app", "createdBy": "janny", "assignedTo": "jack", "editing": false }
+  ]
 }
